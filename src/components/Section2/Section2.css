@@ -1,0 +1,42 @@
+.section2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    z-index: -2;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(1px);
+    z-index: -1;
+  }
+  .overlay {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .round-div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .round-div p {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    font-weight: bold;
+  }
+  

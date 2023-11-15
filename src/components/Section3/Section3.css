@@ -1,0 +1,45 @@
+.section3wrapper {
+    font-family: 'Comfortaa', cursive;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section3card {
+    font-family: 'Comfortaa', cursive;
+    width: 450px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    text-align: flex-start;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    font-size: 14px;
+}
+    .section3card:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .section3img{
+        height: 300px;
+        width: 250px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .section3img img {
+        height: 300px;
+        width: auto;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        filter:grayscale(0.8);
+    }
+    .section3bodywrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }

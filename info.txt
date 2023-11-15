@@ -1,0 +1,6 @@
+my-react-app = npm run dev
+
+my-react-app = npm run build
+
+my-react-app = firebase deploy
+

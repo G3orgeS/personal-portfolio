@@ -1,0 +1,31 @@
+.card {
+  font-family: 'Comfortaa', cursive;
+    width:  100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    h3 {
+      font-size: 18px;
+      color: #333;
+    }
+  }
+  .content {
+   height: 50px; 
+  }
+  .content svg {
+    font-size: 30px;
+  }
+  .content h3 {
+    margin: 0;
+  }
+  

@@ -1,0 +1,32 @@
+/* Header.css */
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Comfortaa', cursive;
+  position: absolute;
+  left: 20px;
+  margin: 0;
+  font-size: 30px;
+}
+.contact {
+  font-family: 'Comfortaa', cursive;
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+}
+@media (max-width: 620px) {
+  .contact {
+    display: none;
+  }
+}

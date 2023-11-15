@@ -1,0 +1,20 @@
+.Section1h2 {
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+    display: flex;
+}
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+.section1wrapper {
+    padding-top: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}

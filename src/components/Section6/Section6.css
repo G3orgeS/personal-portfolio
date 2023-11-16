@@ -1,0 +1,38 @@
+.section6wrapper {
+    height: 100px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.section6infodiv {
+    display: flex;
+    align-items: center;
+}
+.section6infodiv a{
+    padding: 5px;
+    /* text-decoration: none; */
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    width: 80px;
+}
+.section6infodiv a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+.section6infodiv a h3 {
+    margin: 5px;
+}
+.section6infodiv svg{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,16 +1,21 @@
 import React from 'react'
 import './Section3.css'
 import profilimg from '../../images/profil1.jpg';
-
+import { useDarkMode } from '../../DarkModeContex';
 
 const Section3 = () => {
+    const { darkMode } = useDarkMode();
+
     return (
         <>
-        <div className="section3wrapper">
+   <div className={`section3wrapper ${darkMode ? 'dark-mode' : ''}`}>
             <h2>Presentation</h2>
             <div className="section3bodywrapper">
             <div className="section3card">
                 <p>
+                    Hej, Jag heter George.
+                    <br />
+                    <br />
                     Jag hyser en djup passion för <strong>problemlösning, teknologi, effektivt samarbete, ledarskap, entreprenörskap och gastronomi.</strong>
                     <br />
                     <br />

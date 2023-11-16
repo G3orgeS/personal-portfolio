@@ -33,10 +33,26 @@
     display: flex;
     align-items: center;
     position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
   }
   .round-div p {
     font-family: 'Comfortaa', cursive;
     margin: 0;
     font-weight: bold;
+    font-size: 20px;
+  }
+  .round-div svg{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+  }
+  @media (max-width: 450px) {
+    .overlay {
+      position: absolute;
+      height: 100px;
+      width: 200px;
+    }
   }
   

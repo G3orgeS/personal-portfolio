@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 1s, color 1s;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode .header1 {
+    background-color: #333;
+}
+.dark-mode .header1 .mobileline {
+    background-color: rgb(255, 40, 0)
+}
+.dark-mode .card {
+    /* border: 1px solid gray; */
+    background-color: transparent;
+    color: #bcbcbc;
+}
+.dark-mode #darkmodebtn {
+    color: rgb(237, 237, 145);
+    /* box-shadow: 0 0 10px rgba(237, 237, 145, 0.5); */
+}
+.dark-mode .section3card {
+    /* border: 1px solid gray; */
+    background-color: transparent;
+    /* color: #bcbcbc; */
+}
+.dark-mode .section3img img{
+    border: none;
+}
+.dark-mode img {
+    filter:grayscale(0.9);
+    border: none;
+}
+.dark-mode .section4wrapper {
+    background-color: #333;
+    /* padding: 10px; */
+}
+.dark-mode h2 {
+    background-color: #333;
+    /* margin: 0; */
+    /* height: 50px; */
+}
+.section5-0:not(.dark-mode):only-child {
+    display: none;
+  }
+  .section5-0.dark-mode :only-child {
+    display: block;
+  }
+.section6wrapper.dark-mode .section6infodiv a{
+    color: #bcbcbc;
+}

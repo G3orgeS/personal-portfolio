@@ -1,11 +1,14 @@
-/* Header.css */
-.header {
-  height: 80px;
+.header1 {
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 24px;
   margin: 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
 }
 
 .title {
@@ -13,20 +16,52 @@
   position: absolute;
   left: 20px;
   margin: 0;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  z-index: 10;
+}
+.line {
+  height: 2px;
+  background-color: rgb(60, 0, 255); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .contact {
   font-family: 'Comfortaa', cursive;
   position: absolute;
   right: 20px;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: 100;
 }
-
 body {
   margin: 0;
 }
+.dark-mode {
+  background-color: #333;
+}
+.dark-mode .line {
+  background-color: rgb(255, 40, 0)
+}
+
 @media (max-width: 620px) {
   .contact {
+    display: none;
+  }
+  .header {
+    position: sticky;
+  }
+  .mobileline {
+    display: block;
+    height: 2px;
+    background-color: rgb(60, 0, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .line {
     display: none;
   }
 }

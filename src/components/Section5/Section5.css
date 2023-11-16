@@ -1,62 +1,117 @@
 .section5wrapper {
     flex-wrap: wrap;
+    height: 340px;
+}
+.section5card .card {
+    position: relative;
+    opacity: 0.7;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+  }
+  .section5card .card .content svg {
+    font-size: 25px;
+  } 
+  .section5card .card .content h3 {
+    font-size: 11px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  } 
+.section5card:hover  {
+    cursor: none;
+    animation-play-state: paused;
+    opacity: 0.9;
 }
 .section5-0 {
+    animation: floatAnimation 30s infinite ease-in-out;
     position: relative;
     left: 10%;
     width: 100px;
 }
 .section5-1 {
+    animation: floatAnimation 26s infinite ease-in-out;
     position: relative;
     left: 40%;
     width: 100px;
 }
 .section5-2 {
+    animation: floatAnimation 19s infinite ease-in-out;
     position: relative;
     left: 60%;
     width: 100px;
 }
 .section5-3 {
+    animation: floatAnimation 10s infinite ease-in-out;
     position: relative;
     left: 80%;
     width: 100px;
 }
 .section5-4 {
+    animation: floatAnimation 20s infinite ease-in-out;
     position: relative;
     top: -100px;
     left: 20%;
     width: 100px;
 }
 .section5-5 {
+    animation: floatAnimation 10s infinite ease-in-out;
     position: relative;
     top: -250px;
     left: 4%;
     width: 100px;
 }
 .section5-6 {
+    animation: floatAnimation 17s infinite ease-in-out;
     position: relative;
     top: -469px;
     left: 66%;
     width: 100px;
 }
 .section5-7 {
+    animation: floatAnimation 11s infinite ease-in-out;
     position: relative;
     width: 100px;
     top: -430px;
     left: 78%;
 }
 .section5-8 {
+    animation: floatAnimation 16s infinite ease-in-out;
     position: relative;
     top: -670px;
     left: 80%;
     width: 100px;
 }
 .section5-9 {
+    animation: floatAnimation3 10s infinite ease-in-out;
     position: relative;
     top: -778px;
     left: 32%;
     width: 100px;
 }
+@keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(10px) scale(1);
+    }
+    50% {
+      transform: translateY(-10px) scale(1.2);
+    } 
+  }
+  
+  @keyframes floatAnimation3 {
+    0%, 100% {
+      transform: translateY(10px);
+    }
+    50% {
+      transform: translateY(-10px);
+    } 
+  }
+  
+
 @media (max-width: 700px) {
     .section5-1 {
         left: 40%;

@@ -10,11 +10,23 @@
     width: 60%;
 }
 .section1wrapper {
-    padding-top: 50px;
     width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+#darkmodebtn {
+    cursor: pointer;
+}
+@media (max-width: 200px) {
+    .section1 {
+        width: 80%;
+    }
+}
+@media (min-width: 350px) {
+    .section1 {
+        width: 80%;
+    }
 }

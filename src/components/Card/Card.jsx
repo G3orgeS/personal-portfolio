@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ title, icon, text }) => {
+const Card = ({ id, title, icon, text, onClick }) => {
   return (
-    <div className="card">
+    <div id={id} className="card" onClick={onClick}>
       <div className="content">
         {icon}
         <h3>{title}</h3>
@@ -13,6 +13,3 @@ const Card = ({ title, icon, text }) => {
 };
 
 export default Card;
-
-
-

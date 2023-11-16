@@ -1,6 +1,7 @@
 import React from 'react';
 import './Section2.css';
 import backgroundVideo from '../../images/background1.mp4';
+import { LuPartyPopper } from "react-icons/lu";
 
 const Section2 = () => {
   return (
@@ -12,6 +13,7 @@ const Section2 = () => {
       <div className="overlay">
         <div className="round-div">
           <p>Välkommen Till min sida</p>
+          <LuPartyPopper />
         </div>
       </div>
     </div>

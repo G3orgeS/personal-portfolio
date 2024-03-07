@@ -15,10 +15,13 @@ body::-webkit-scrollbar {
 .dark-mode .header1 .mobileline {
     background-color: rgb(255, 40, 0)
 }
-.dark-mode .card {
+.dark-mode .card  {
     /* border: 1px solid gray; */
     background-color: transparent;
     color: #bcbcbc;
+}
+.dark-mode .card h3 {
+    color: #fff;
 }
 .dark-mode #darkmodebtn {
     color: rgb(237, 237, 145);
@@ -40,11 +43,12 @@ body::-webkit-scrollbar {
     background-color: #333;
     /* padding: 10px; */
 }
-.dark-mode h2 {
+.dark-mode h2 h3 {
     background-color: #333;
     /* margin: 0; */
     /* height: 50px; */
 }
+
 .section5-0:not(.dark-mode):only-child {
     display: none;
   }

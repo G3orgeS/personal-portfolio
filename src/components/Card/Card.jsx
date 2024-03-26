@@ -1,12 +1,14 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ id, title, icon, text, onClick }) => {
+const Card = ({ id, title, icon, text, url, onClick }) => {
   return (
     <div id={id} className="card" onClick={onClick}>
       <div className="content">
         {icon}
-        <h3>{title}</h3>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <h3>{title}</h3>
+        </a>
       </div>
     </div>
   );

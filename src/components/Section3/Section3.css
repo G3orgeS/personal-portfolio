@@ -12,11 +12,9 @@
     width: 450px;
     height: 350px;
     background-color: #fff;
-    /* border: 1px solid #ddd; */
     border-radius: 8px;
     padding: 0 10px 0 10px;
     text-align: flex-start;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     margin: 10px;
     transition: transform 0.3s ease-in-out;
     font-size: 14px;
@@ -34,7 +32,6 @@
         width: auto;
         border-radius: 0px 150px 0px 150px;
         border: 1px solid #ddd;
-        /* filter:grayscale(0.8); */
     }
     .section3bodywrapper {
         display: flex;

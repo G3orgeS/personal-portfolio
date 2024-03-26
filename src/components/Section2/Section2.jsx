@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section2.css';
-import backgroundVideo from '../../images/background1.mp4';
+import backgroundVideo from '../../images/background5.mp4';
 import { LuPartyPopper } from "react-icons/lu";
 
 const Section2 = () => {

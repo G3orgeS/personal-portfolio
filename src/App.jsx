@@ -1,5 +1,4 @@
 import React from 'react';
-import '@fortawesome/fontawesome-svg-core/styles.css';
 import './index.css';
 import { DarkModeProvider } from "./DarkModeContex";
 import Header from './components/Header/Header'; 
